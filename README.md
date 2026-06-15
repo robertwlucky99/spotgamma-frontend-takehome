@@ -1,0 +1,1 @@
+# spotgamma-frontend-takehome
