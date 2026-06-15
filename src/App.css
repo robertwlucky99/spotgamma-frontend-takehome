@@ -1,0 +1,50 @@
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50px repeat(10, 1fr);
+  gap: 4px;
+}
+
+.header,
+.corner {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+}
+
+.cell {
+  height: 36px;
+  padding: 0 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.cell:focus {
+  outline: 2px solid #333;
+}
+
+.error {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #ffe6e6;
+  border: 1px solid #cc0000;
+  color: #990000;
+}
+
+.help {
+  margin-top: 20px;
+  text-align: center;
+}
